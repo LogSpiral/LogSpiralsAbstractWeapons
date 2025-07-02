@@ -29,11 +29,11 @@ Items: {
 
 	BoulderGlove: {
 		DisplayName: 巨石手套
-		Tooltip: 
-		'''
-		消耗桑柏棵阳光以种植巨石投手
-		后续会由巨石之神掉落，目前boss未完工，所以开放了直接合成的形式
-		'''
+		Tooltip:
+			'''
+			消耗桑柏棵阳光以种植巨石投手
+			后续会由巨石之神掉落，目前boss未完工，所以开放了直接合成的形式
+			'''
 	}
 
 	StarBoulderCannon: {
