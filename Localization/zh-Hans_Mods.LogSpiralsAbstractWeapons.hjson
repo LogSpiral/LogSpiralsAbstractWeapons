@@ -1,0 +1,220 @@
+Items: {
+	SausageSword: {
+		Tooltip: 这最好只有香肠
+		DisplayName: 香肠剑
+	}
+
+	SausageSwordUltra: {
+		DisplayName: 香肠剑凹欻
+		Tooltip: 引入了全新的叶绿辐射工艺
+	}
+
+	BlessingTier1: {
+		DisplayName: 星辰降落之愿Ⅰ
+		Tooltip: 囊得过分的祝福！
+	}
+
+	RandomRainbowStaff: {
+		DisplayName: 汇源彩虹杖
+		Tooltip:
+			'''
+			点击第一个点选择源
+			点击第二个点选择汇
+			汇选中之后即生成传送门
+			传送门内会有大量弹幕喷出
+			中间的轨迹鬼知道会怎么样
+			但是一定是从源发出，最后落到汇
+			'''
+	}
+
+	BoulderGlove: {
+		DisplayName: 巨石手套
+		Tooltip: 
+		'''
+		消耗桑柏棵阳光以种植巨石投手
+		后续会由巨石之神掉落，目前boss未完工，所以开放了直接合成的形式
+		'''
+	}
+
+	StarBoulderCannon: {
+		DisplayName: 星星巨石炮
+		Tooltip: 以某种方式提高弹药的利用率和回收率...
+	}
+
+	BoulderBoulder: {
+		DisplayName: 巨巨石
+		Tooltip:
+			'''
+			用来召唤神人巨石
+			不会消耗哦
+			'''
+	}
+
+	SpecialFallenStar: {
+		DisplayName: 异闪天星
+		Tooltip:
+			'''
+			其实就是比较奇怪的特殊的落星
+			在白昼到来之际
+			绝大多数的落星都会化作星尘而散去
+			少数的星星反而发出更猛烈的光
+			它们在下一次的夜间才消失
+			也许用这样的星星，可以做些不得了的道具呢
+			————————————————————————————
+			小作文结束，其实白天直接把之前收集到的星星丢出来也行
+			最好手动一个个丢，一次丢一组是视作一个的
+			也就是说你要是攒了9999个落星，运气差就全部打水漂，运气好就9999个特殊星星
+			话又说回来，这个星星
+			其实只要一个就够了(笑)
+
+			不需要桑摆个哦
+			'''
+	}
+
+	FaintStarlight: {
+		DisplayName: 微弱星光
+		Tooltip:
+			'''
+			手持或装备在饰品栏时提升落星生成速度
+			并且所有落星都会生成在你附近
+
+			攒不到三百颗？介绍...微弱星光！！
+			'''
+	}
+
+	StarSlingshot: {
+		DisplayName: 星光弹弓
+		Tooltip:
+			'''
+			嘛，虽然贴图是用ps拉出来的弹弓
+			但是实际发射原理是引力弹弓哦(瞎说)
+			消耗落星，蓄力发射，先向上飞行，然后冲向鼠标方向
+
+			哦对了，微弱星光的效果它也有，而且更过分了
+			一起装备的时候会用更大的那个
+			再后续升级也是一样的道理
+			'''
+	}
+
+	EasyBlessing: {
+		DisplayName: 简朴祝愿
+		Tooltip:
+			'''
+			打不过骷髅亡？
+			介绍...简朴祝愿！！
+			这很“EZ”
+			'''
+		ExtraHint:
+			'''
+			话说回来
+			出于某种恶趣味
+			有1/3的星星是会砸死人的
+			'''
+	}
+
+	NaturalStarlight: {
+		DisplayName: 自然祈愿
+		Tooltip:
+			'''
+			长按吟唱发射翠色陨星
+			陨星落地时生成具有毒性的孢子云，小心别伤着自己了
+
+			话说自然界中是没有绿色的星星呢
+			'''
+	}
+
+	StarlightBlessing: {
+		NotNowHint: 现在还不行哦
+		DisplayName: 星光祝福
+		Tooltip:
+			'''
+			手持可使用
+			每0.75秒从天降下一轮落星，每轮3颗
+			一共4轮
+			冷却10秒
+
+			星尘降落之歌
+			'''
+	}
+
+	TrueStarlightBlessing: {
+		DisplayName: 真·星光祝福
+		Tooltip:
+			'''
+			手持可使用
+			每0.33秒从天降下一轮落星，每轮3颗
+			一共9轮
+			冷却5秒
+
+			你愿意，攒一辈子的落星吗
+			'''
+	}
+
+	ZenithWhip: {
+		DisplayName: 天顶剑鞭
+		Tooltip: 傅立叶级数，小子
+	}
+
+	NPCWhip: {
+		DisplayName: 嗯劈西鞭
+		Tooltip: 人多力量大
+	}
+
+	BuffWhip: {
+		DisplayName: 罢芙鞭
+		Tooltip: 我的鞭上可是抹了剧毒的(舔)
+	}
+
+	DestroyerWhip: {
+		DisplayName: 美杜莎之尾
+		Tooltip: 求这个鞭子的转动惯量
+	}
+
+	BoulderBossRelicItem: {
+		DisplayName: 巨石之神圣物
+		Tooltip: ""
+	}
+
+	BoulderTrophyItem: {
+		DisplayName: 巨石之神纪念章
+		Tooltip: ""
+	}
+
+	BoulderStand: {
+		DisplayName: 巨石基座
+		Tooltip:
+			'''
+			用于召唤神人巨石
+
+			看样子你需要找到另一样东西
+			手持着它将它放在基座之上
+			'''
+	}
+}
+
+Projectiles: {
+	RandomRainbowProjectile.DisplayName: 彩虹飞弹
+	FallenStarBoulderProjectile.DisplayName: 落星巨石♥
+	StarBoulderFlyingProj.DisplayName: 星星炮
+	ZenithWhipProj.DisplayName: 天顶剑鞭
+	ShootingStar.DisplayName: 弹弓之星
+	NPCWhipProj.DisplayName: 嗯批西鞭
+	BuffWhipProj.DisplayName: 罢芙鞭
+	DestroyerWhipProj.DisplayName: 美杜莎小尾巴
+	ProbeLaser.DisplayName: 探针激光
+	StarlightZone.DisplayName: 星之领域
+	NaturalFallingStar.DisplayName: 自然祈愿之星
+	RandomRainbowPortal.DisplayName: 随机彩虹传送门
+	BouncyBoulder.DisplayName: 弹弹巨石
+	// ZoneFallingStar.DisplayName: Zone Falling Star
+}
+
+NPCs: {
+	BoulderGod: {
+		DisplayName: 巨石之神
+		ItemHint: 看上去你需要一些比巨石更巨石的东西来激活
+		FightingHint: 嘿朋友，我在和你战斗了
+	}
+}
+
+Tiles.BrenaTile.MapEntry: Brena块

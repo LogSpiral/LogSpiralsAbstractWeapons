@@ -1,0 +1,135 @@
+Items: {
+	SausageSword: {
+		Tooltip: ""
+		DisplayName: Sausage Sword
+	}
+
+	SausageSwordUltra: {
+		DisplayName: Sausage Sword Ultra
+		Tooltip: ""
+	}
+
+	BlessingTier1: {
+		DisplayName: Blessing Tier1
+		Tooltip: ""
+	}
+
+	RandomRainbowStaff: {
+		DisplayName: Random Rainbow Staff
+		Tooltip: ""
+	}
+
+	BoulderGlove: {
+		DisplayName: Boulder Glove
+		Tooltip: ""
+	}
+
+	StarBoulderCannon: {
+		DisplayName: Star Boulder Cannon
+		Tooltip: ""
+	}
+
+	BoulderBoulder: {
+		DisplayName: Boulder Boulder
+		Tooltip: ""
+	}
+
+	SpecialFallenStar: {
+		DisplayName: Special Fallen Star
+		Tooltip: ""
+	}
+
+	FaintStarlight: {
+		DisplayName: Faint Starlight
+		Tooltip: ""
+	}
+
+	StarSlingshot: {
+		DisplayName: Star Slingshot
+		Tooltip: ""
+	}
+
+	EasyBlessing: {
+		DisplayName: Easy Blessing
+		Tooltip: ""
+		ExtraHint: ""
+	}
+
+	NaturalStarlight: {
+		DisplayName: Natural Starlight
+		Tooltip: ""
+	}
+
+	StarlightBlessing: {
+		NotNowHint: Not now.
+		DisplayName: Starlight Blessing
+		Tooltip: ""
+	}
+
+	TrueStarlightBlessing: {
+		DisplayName: True Starlight Blessing
+		Tooltip: ""
+	}
+
+	ZenithWhip: {
+		DisplayName: Zenith Whip
+		Tooltip: ""
+	}
+
+	NPCWhip: {
+		DisplayName: NPC Whip
+		Tooltip: ""
+	}
+
+	BuffWhip: {
+		DisplayName: Buff Whip
+		Tooltip: ""
+	}
+
+	DestroyerWhip: {
+		DisplayName: Destroyer Whip
+		Tooltip: ""
+	}
+
+	BoulderBossRelicItem: {
+		DisplayName: Boulder Boss Relic Item
+		Tooltip: ""
+	}
+
+	BoulderTrophyItem: {
+		DisplayName: Boulder Trophy Item
+		Tooltip: ""
+	}
+
+	BoulderStand: {
+		DisplayName: Boulder Stand
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	RandomRainbowProjectile.DisplayName: Random Rainbow Projectile
+	FallenStarBoulderProjectile.DisplayName: Fallen Star Boulder Projectile
+	StarBoulderFlyingProj.DisplayName: Star Boulder Flying Proj
+	ZenithWhipProj.DisplayName: Zenith Whip Proj
+	ShootingStar.DisplayName: Shooting Star
+	NPCWhipProj.DisplayName: N P C Whip Proj
+	BuffWhipProj.DisplayName: Buff Whip Proj
+	DestroyerWhipProj.DisplayName: Destroyer Whip Proj
+	ProbeLaser.DisplayName: Probe Laser
+	StarlightZone.DisplayName: Starlight Zone
+	NaturalFallingStar.DisplayName: Natural Falling Star
+	RandomRainbowPortal.DisplayName: Random Rainbow Portal
+	BouncyBoulder.DisplayName: Bouncy Boulder
+	ZoneFallingStar.DisplayName: Zone Falling Star
+}
+
+NPCs: {
+	BoulderGod: {
+		DisplayName: Boulder God
+		ItemHint: ""
+		FightingHint: ""
+	}
+}
+
+Tiles.BrenaTile.MapEntry: Brena Tile

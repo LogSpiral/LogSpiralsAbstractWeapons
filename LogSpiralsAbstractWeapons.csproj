@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+	<ItemGroup>
+	  <PackageReference Include="Solaestas.tModLoader.ModBuilder" Version="1.6.1" />
+	</ItemGroup>
+
+	<!-- General -->
+	<PropertyGroup>
+		<LangVersion>preview</LangVersion>
+	</PropertyGroup>
+	<!-- References -->
+
+</Project>
