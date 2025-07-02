@@ -139,13 +139,13 @@ public class DestroyerWhipProj : ModProjectile
             }
 
             float scale = 1;
-            if (i == list.Count - 2)
-            {
-                // For a more impactful look, this scales the tip of the whip up when fully extended, and down when curled up.
-                Projectile.GetWhipSettings(Projectile, out float timeToFlyOut, out int _, out float _);
-                float t = Projectile.ai[0] / timeToFlyOut;
-                scale = MathHelper.Lerp(0.5f, 1.5f, Utils.GetLerpValue(0.1f, 0.7f, t, true) * Utils.GetLerpValue(0.9f, 0.7f, t, true));
-            }
+            //if (i == list.Count - 2)
+            //{
+            //    // For a more impactful look, this scales the tip of the whip up when fully extended, and down when curled up.
+            //    Projectile.GetWhipSettings(Projectile, out float timeToFlyOut, out int _, out float _);
+            //    float t = Projectile.ai[0] / timeToFlyOut;
+            //    scale = MathHelper.Lerp(0.5f, 1.5f, Utils.GetLerpValue(0.1f, 0.7f, t, true) * Utils.GetLerpValue(0.9f, 0.7f, t, true));
+            //}
 
             Vector2 element = list[i];
             Vector2 diff = list[i + 1] - element;

@@ -26,7 +26,7 @@ public class StarBoulderCannon : ModItem
         Item.height = 18;
         Item.shoot = ModContent.ProjectileType<StarBoulderFlyingProj>();
         Item.useAmmo = AmmoID.FallenStar;
-        Item.UseSound = SoundID.Zombie104;
+        //Item.UseSound = SoundID.Zombie104;
         Item.knockBack = 3f;
         Item.damage = 55;
         Item.shootSpeed = 14f;
@@ -76,6 +76,7 @@ public class StarBoulderFlyingProj : ModProjectile
 
     public override void SetDefaults()
     {
+        Projectile.extraUpdates = 1;
         Projectile.width = 18;
         Projectile.height = 18;
         Projectile.aiStyle = 5;
@@ -89,7 +90,7 @@ public class StarBoulderFlyingProj : ModProjectile
 
     public override void OnKill(int timeLeft)
     {
-        Projectile.NewProjectile(Projectile.GetSource_FromThis(), Projectile.Center, Projectile.velocity * .5f, ModContent.ProjectileType<FallenStarBoulderProjectile>(), Projectile.damage, Projectile.knockBack, Projectile.owner);
+        Projectile.NewProjectile(Projectile.GetSource_FromThis(), Projectile.Center, Projectile.velocity * 2, ModContent.ProjectileType<FallenStarBoulderProjectile>(), Projectile.damage, Projectile.knockBack, Projectile.owner);
         base.OnKill(timeLeft);
     }
 
