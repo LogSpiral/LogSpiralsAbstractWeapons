@@ -72,7 +72,7 @@ public class BoulderGlove : ModItem
 
     public override bool? UseItem(Player player)
     {
-        if (player.itemAnimation == 10)
+        if (player.itemAnimation is 10 or 11)
         {
 
             float factor = MathHelper.Clamp(chargeCounter / 60f, 0, 1);
@@ -107,7 +107,7 @@ public class BoulderGlove : ModItem
             {
                 var center = player.Center;
                 var target = Main.MouseWorld - center;
-                Projectile.NewProjectile(player.GetSource_ItemUse(Item), center, target.SafeNormalize(default) * MathHelper.Lerp(8f, 64f, factor),
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), center, target.SafeNormalize(default) * MathHelper.Lerp(8f, 64f, factor) + Main.rand.NextVector2Unit() * Main.rand.NextFloat(4),
                     BouncyBoulder.ID(), (int)(player.GetWeaponDamage(Item) * MathHelper.Lerp(0.5f, 4f, factor)), 5, player.whoAmI, 0, 0, 1);
             }
         }

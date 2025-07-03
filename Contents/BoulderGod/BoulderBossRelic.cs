@@ -178,7 +178,7 @@ namespace LogSpiralsAbstractWeapons.Contents.BoulderGod
 
             if (Wiring.CheckMech(x, y, 30) && NPC.MechSpawn(spawnX, spawnY, spawnedNpcId))
             {
-                npcIndex = NPC.NewNPC(entitySource, (int)spawnX, (int)spawnY - 12, spawnedNpcId);
+                npcIndex = NPC.NewNPC(entitySource, (int)spawnX, (int)spawnY - 12, spawnedNpcId,0,1);
             }
 
             if (npcIndex >= 0)

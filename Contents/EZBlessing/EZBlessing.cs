@@ -317,7 +317,7 @@ public class StarSlingshot : ModItem
 
     public override bool? UseItem(Player player)
     {
-        if (player.itemAnimation == 1 && player.HasAmmo(Item))
+        if (player.itemAnimation is 1 or 2 && player.HasAmmo(Item))
         {
 
             float factor = MathHelper.Clamp(chargeCounter / 60f, 0, 1);
@@ -355,7 +355,7 @@ public class StarSlingshot : ModItem
                 if (player.whoAmI == Main.myPlayer)
                 {
                     var center = player.Center - Vector2.UnitX * player.direction * 48 - Vector2.UnitY * 96;
-                    var target = Main.MouseWorld - center;
+                    var target = Main.MouseWorld + Main.rand.NextVector2Unit() * Main.rand.NextFloat(0,4) - center;
                     Projectile.NewProjectile(player.GetSource_ItemUse(Item), center, default,
                         ShootingStar.ID(), (int)(player.GetWeaponDamage(Item) * MathHelper.Lerp(0.5f, 4f, factor)), 5, player.whoAmI, target.X, target.Y, factor);
                 }
@@ -842,7 +842,7 @@ public class StarlightBlessing : ModItem
     public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
     {
         if (timer > 0)
-            Main.NewText("现在还不行哦");
+            Main.NewText(Language.GetTextValue("Mods.LogSpiralsAbstractWeapons.Items.StarlightBlessing.NotNowHint"));
         else
         {
             Projectile.NewProjectile(source, player.Center, default, type, 60, 0, player.whoAmI, 0);
